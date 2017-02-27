@@ -1,5 +1,10 @@
 pragma solidity ^0.4.0;
 
+//Choose an NGO and set a campaign target of 200 € for example. 
+//You must drop half and collect the rest by inviting your entourage to unblock your donation. 
+//If successful, 100% of the funds are donated to the NGO. 
+//If the objective of the campaign is not achieved, everyone is reimbursed.
+
 contract Charitychain {
     
     address public beneficiary;
